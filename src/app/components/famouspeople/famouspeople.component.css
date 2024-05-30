@@ -1,0 +1,38 @@
+h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.famouspeople-list{
+    width: 100;
+    font-size: 12;
+    text-align: left;
+    font-family: sans-serif;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+.famouspeople-list-table{
+    justify-content: center;
+    display: flex;
+}
+
+.famouspeople-list th{
+    background-color: grey;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.famouspeople-list td{
+    border: 1px solid black;
+}
+
+.famouspeople-list tr{
+    border-bottom: 1px solid black;
+}
+
+.error-message{
+    color: red;
+    font-family: sans-serif;
+}
+

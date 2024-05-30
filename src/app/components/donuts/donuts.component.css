@@ -1,9 +1,27 @@
 img {
     width: 200px;
-    justify-content: center;
+}
 
+h2 {
+    font-family: sans-serif;
+    text-align: center;
 }
 
 h3 {
     justify-content: center;
+}
+
+.donut-list{
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.donut{
+    text-align: center;
+}
+
+.error-message{
+    color: red;
+    font-family: sans-serif;
 }

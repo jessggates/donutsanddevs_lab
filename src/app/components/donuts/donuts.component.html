@@ -1,15 +1,13 @@
 <h2>Donuts</h2>
 
 
-    <div *ngIf="donutResponse">
-        <ul class="donut-list">
-            <li *ngFor="let donut of donutResponse.results" class="donut">
+    <div *ngIf="donutResponse" class="donut-list">
+            <div *ngFor="let donut of donutResponse.results" class="donut">
                 <a [href]="donut.photo" target="_blank">
                     <img [src]="donut.photo" alt="{{donut.name}}" />
                 </a>
                 <h3>{{donut.name}}</h3>
-            </li>
-        </ul>
+            </div>
     </div>
 
     <div *ngIf="error" class="error-message">
